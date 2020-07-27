@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+.Sections {
+    background-image: url(images/New\ Piskel\ \(5\).png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    border: rgb(15, 15, 15);
+    border-width: 10px;
+    border-style: solid;
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+.Message {
+    background-image: url(images/New\ Piskel\ \(5\).png);
+    border: rgb(15, 15, 15);
+    border-width: 10px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+footer {
+    background-color: lightgray;
+    color: gray;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 1000px) {
+    header{
+        width: inherit*40%;
+        height: inherit*40%;
+    }
+    .Sections{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    iframe{
+        display: flex;
+        justify-content: center;
+    }
+    .middle{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
